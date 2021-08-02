@@ -41,7 +41,7 @@ function createItem(text, itemlist) {
   deletBtn.setAttribute("class", "deletBtn");
   deletBtn.innerHTML = `<i class="fas fa-trash-alt"></i>`;
   deletBtn.addEventListener("click", () => {
-    itemlist.removeChild(itemRow);
+    itemlist.removeChild(items);
   });
 
   const itemDevider = document.createElement("div");
